@@ -1,0 +1,7 @@
+**/.github/*
+**/node_modules/*
+**/out/*
+**/.next/*
+**/.linaria-cache/*
+public/
+coverage/
