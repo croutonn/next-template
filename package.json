@@ -37,7 +37,7 @@
     "@zeit/next-sass": "^1.0.1",
     "compose-function": "^3.0.3",
     "linaria": "^2.0.0-rc.3",
-    "next": "^9.5.3",
+    "next": "^9.5.4",
     "polished": "^4.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
