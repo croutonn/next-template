@@ -1,6 +1,6 @@
-import React from 'react'
-import Head from 'next/head'
 import { styled } from 'linaria/react'
+import Head from 'next/head'
+import React from 'react'
 
 const Box = styled.div`
   width: 200px;

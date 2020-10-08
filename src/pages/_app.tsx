@@ -1,5 +1,5 @@
-import React from 'react'
 import { AppPropsType } from 'next/dist/next-server/lib/utils'
+import React from 'react'
 import '@/styles/global'
 
 function App({ Component, pageProps }: AppPropsType): JSX.Element {
