@@ -1,4 +1,11 @@
 const commonRules = {
+  'react/require-default-props': [
+    'error',
+    {
+      forbidDefaultForRequired: true,
+      ignoreFunctionalComponents: true,
+    },
+  ],
   'import/order': [
     'error',
     {
@@ -39,15 +46,32 @@ module.exports = {
         'prettier/@typescript-eslint',
       ],
       parserOptions: {
+        tsconfigRootDir: __dirname,
         project: './tsconfig.json',
       },
       rules: {
         ...commonRules,
       },
+      settings: {
+        'import/parsers': {
+          '@typescript-eslint/parser': ['.ts', '.tsx'],
+        },
+        'import/resolver': {
+          typescript: {
+            project: 'tsconfig.json',
+          },
+          node: {
+            extensions: ['.js', '.ts', '.jsx', '.tsx', '.json'],
+          },
+        },
+      },
     },
     {
       files: ['**/*.js', '**/*.jsx'],
       extends: ['airbnb', 'airbnb/hooks', 'prettier', 'prettier/react'],
+      rules: {
+        ...commonRules,
+      },
     },
     {
       files: [
@@ -61,7 +85,6 @@ module.exports = {
         '**/*.spec.tsx',
       ],
       rules: {
-        ...commonRules,
         '@typescript-eslint/explicit-module-boundary-types': 'off',
       },
     },
