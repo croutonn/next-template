@@ -47,7 +47,7 @@
     "@storybook/addon-actions": "^6.0.26",
     "@storybook/addon-essentials": "^6.0.26",
     "@storybook/addon-links": "^6.0.26",
-    "@testing-library/react": "^11.0.4",
+    "@testing-library/react": "^11.1.0",
     "@types/compose-function": "^0.0.30",
     "@types/jest": "^26.0.14",
     "@types/node": "^14.11.8",
