@@ -38,7 +38,7 @@
     "compose-function": "^3.0.3",
     "linaria": "^2.0.0-rc.3",
     "next": "^9.5.5",
-    "polished": "^4.0.2",
+    "polished": "^4.0.3",
     "react": "^16.14.0",
     "react-dom": "^16.14.0"
   },
