@@ -51,7 +51,7 @@
     "@types/compose-function": "^0.0.30",
     "@types/jest": "^26.0.15",
     "@types/node": "^14.14.5",
-    "@types/react": "^16.9.53",
+    "@types/react": "^16.9.54",
     "@typescript-eslint/eslint-plugin": "^4.6.0",
     "@typescript-eslint/parser": "^4.6.0",
     "babel-jest": "^26.6.1",
