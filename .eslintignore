@@ -1,6 +1,7 @@
-**/.github/*
 **/node_modules/*
-**/out/*
-**/.next/*
-public/
-coverage/
+/.github/*
+/.next/*
+/out/*
+/public/*
+/coverage/*
+/storybook-static/*

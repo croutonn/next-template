@@ -1,7 +1,6 @@
-import { AppPropsType } from 'next/dist/next-server/lib/utils'
-import React from 'react'
+import { AppType } from 'next/dist/next-server/lib/utils'
 
-function App({ Component, pageProps }: AppPropsType): JSX.Element {
+const App: AppType = ({ Component, pageProps }) => {
   // eslint-disable-next-line react/jsx-props-no-spreading
   return <Component {...pageProps} />
 }

@@ -7,7 +7,7 @@ import React from 'react'
 const isReactElement = (x: unknown): x is React.ReactElement =>
   x && typeof x === 'object' && 'type' in x && 'props' in x && 'key' in x
 
-const Providers: React.FC = ({ children }) => {
+const Providers: React.FunctionComponent = ({ children }) => {
   return isReactElement(children) ? children : null
   // return (
   //   <ThemeProvider theme="light">
