@@ -8,5 +8,10 @@
   },
   "lockFileMaintenance": {
     "enabled": true
-  }
+  },
+  "suppressNotifications": [
+    "prIgnoreNotification",
+    "deprecationWarningIssues",
+    "onboardingClose"
+  ]
 }
