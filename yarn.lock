@@ -1911,10 +1911,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@croutonn/eslint-config@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@croutonn/eslint-config/-/eslint-config-1.0.4.tgz#91a85d74bec5971fe7292d274d623fd5d8deb971"
-  integrity sha512-2nr+UtdqR/49loLXg4Wlxt/iQung0Gh8pDwtMSkEtJJp4lZyC7jxHzq6BxyS9ZZpWOpJfszjDvdP5n6Od2WW2A==
+"@croutonn/eslint-config@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@croutonn/eslint-config/-/eslint-config-1.0.5.tgz#a3d848f1765de73b70133d0076fe84fa383cf162"
+  integrity sha512-42xj8QYoanIgx+9VGyXdnP9coS/CJxmYHcgXarnvsbabgUky9aShp/yxeHWbYd1MCJLC+Yp+W6+hHDXx3OTjvQ==
   dependencies:
     "@croutonn/eslint-plugin" "^0.2.4"
     "@typescript-eslint/eslint-plugin" "^4.6.0"
