@@ -1,23 +1,5 @@
-import { styled } from 'linaria/react'
 import Head from 'next/head'
 import React from 'react'
-
-const Box = styled.div`
-  width: 200px;
-  height: 200px;
-  margin-top: 40px;
-  margin-left: 40px;
-  background-color: tomato;
-  animation: spin 2s linear infinite;
-  @keyframes spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-`
 
 export const Home = (): JSX.Element => (
   <div className="container">
@@ -44,8 +26,6 @@ export const Home = (): JSX.Element => (
       >
         Test Button
       </button>
-
-      <Box>Zero runtime CSS in JS</Box>
 
       <div className="grid">
         <a href="https://nextjs.org/docs" className="card">

@@ -21,11 +21,7 @@ module.exports = {
         {
           loader: 'babel-loader',
           options: {
-            presets: [
-              'next/babel',
-              'linaria/babel',
-              require.resolve('babel-preset-react-app'),
-            ],
+            presets: ['next/babel', require.resolve('babel-preset-react-app')],
             plugins: ['react-docgen'],
           },
         },

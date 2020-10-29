@@ -12,9 +12,6 @@
 /.next/
 /out/
 
-# linaria
-/.linaria-cache/
-
 # production
 /build
 
@@ -35,3 +32,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# storybook
+storybook-static/

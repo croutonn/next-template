@@ -36,11 +36,6 @@ exports[`Home page matches snapshot 1`] = `
         Test Button
       </button>
       <div
-        class="b5x8bgl"
-      >
-        Zero runtime CSS in JS
-      </div>
-      <div
         class="jsx-2250570153 grid"
       >
         <a
