@@ -1796,7 +1796,7 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@storybook/addon-actions@6.1.8", "@storybook/addon-actions@^6.1.6":
+"@storybook/addon-actions@6.1.8", "@storybook/addon-actions@^6.1.8":
   version "6.1.8"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-6.1.8.tgz#b1a74710daaac8846df539590ff1152d7a18cdb8"
   integrity sha512-G2dhFdJ3xzhmduI3UJDwsJ0hg565Axm7Yux8zzPjqk+o61PPVUtvwdOalYA2XPSn5LN0S9McYBn4uq4SqaxgMw==
@@ -1897,7 +1897,7 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/addon-essentials@^6.1.6":
+"@storybook/addon-essentials@^6.1.8":
   version "6.1.8"
   resolved "https://registry.yarnpkg.com/@storybook/addon-essentials/-/addon-essentials-6.1.8.tgz#acb3103e32dd50546f0ed69bb4ba17bb2fc4a62f"
   integrity sha512-mAbGVZMMpCggjac5aFq8L5HmkxyTwCobaQO7+vjVAOylTWcse50tFZOqF2+JrQYgTjS4dRgsXzlr7F3Zrb9VcA==
@@ -1915,7 +1915,7 @@
     regenerator-runtime "^0.13.7"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-links@^6.1.6":
+"@storybook/addon-links@^6.1.8":
   version "6.1.8"
   resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-6.1.8.tgz#5fecab85a82810a40472171368cb6fddfe9373be"
   integrity sha512-8QoyEsYqsVrf70kNyKg7cOPyzGttkYNIVJtvB+SpYAbIboNyhNy63cngyd1I72IwMoCs5CaHMciM1cAkezdOOw==
@@ -1961,7 +1961,7 @@
     prop-types "^15.7.2"
     regenerator-runtime "^0.13.7"
 
-"@storybook/addons@6.1.8", "@storybook/addons@^6.1.6":
+"@storybook/addons@6.1.8", "@storybook/addons@^6.1.8":
   version "6.1.8"
   resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-6.1.8.tgz#5efef0d3da0970589c948a89a273a9650111c7f7"
   integrity sha512-cqYfE7F5g4lY4E2djLj4KmOVdIm7dCc8TSgfMbYb5WmO4Ow74Nx2aO/51qpz8cM+EHj2HodK05vTntlcLom5Hg==
@@ -2220,7 +2220,7 @@
   dependencies:
     core-js "^3.0.1"
 
-"@storybook/react@^6.1.6":
+"@storybook/react@^6.1.8":
   version "6.1.8"
   resolved "https://registry.yarnpkg.com/@storybook/react/-/react-6.1.8.tgz#f1111cf2de398012e715b559fd8e169f433b59af"
   integrity sha512-895jpfxKUfwP/+DXVeYV0oKEa1cVWu6aIW0UiTSFfsO+expmimdGaduRT5efF94uxCl9Fa2Cm6s1PHT2jLufDQ==
@@ -3511,7 +3511,7 @@ babel-jest@^26.6.3:
     graceful-fs "^4.2.4"
     slash "^3.0.0"
 
-babel-loader@^8.0.6, babel-loader@^8.2.1:
+babel-loader@^8.0.6, babel-loader@^8.2.2:
   version "8.2.2"
   resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.2.2.tgz#9363ce84c10c9a40e6c753748e1441b60c8a0b81"
   integrity sha512-JvTd0/D889PQBtUXJ2PXaKU/pjZDMtHA9V2ecm+eNRmmBCMR09a+fmpGTNwnJtFmFl5Ei7Vy47LjBb+L0wQ99g==
